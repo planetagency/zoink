@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Zoink : Lazy loading images via CSS" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Zoink</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/planetagency/zoink">View on GitHub</a>
+
+          <h1 id="project_title">Zoink</h1>
+          <h2 id="project_tagline">Lazy loading images via CSS</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/planetagency/zoink/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/planetagency/zoink/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Zoink is a way to lazy load background images. Problem with most lazy load scrolling solutions is they work for <img>. But for responsive designed websites, there are multiple images for an element using background images. To lazy load content, you can use zoinked for backgroun images!</p>
+
+<ol>
+<li>Add .zoinked css class for lazy loaded content
+'''
+.zoinked #myBottomOfPageBgImage {
+background: url("/path/to/huge/image.jpg")
+}
+```</li>
+</ol><ol>
+<li>Load Zoinked JS
+'''
+&lt;script type="text/javascript" charset="utf-8"&gt;
+var zoink = new window.Zoink();
+&lt;/script&gt;
+```</li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Zoink maintained by <a href="https://github.com/planetagency">planetagency</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

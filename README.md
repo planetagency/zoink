@@ -11,7 +11,7 @@ Zoink is a way to lazy load background images. Problem with most lazy load scrol
 
 2. Load Zoinked JS
  ```
-&lt;script type="text/javascript" charset="utf-8"&gt;
+<script type="text/javascript" charset="utf-8">
   var zoink = new window.Zoink();
-&lt;/script&gt;
+</script>
 ```
